@@ -1,0 +1,37 @@
+{
+  "name": "usxmrpool-front-end",
+  "description": "Front-end vuejs components for US XMR Pool",
+  "version": "1.0.0",
+  "author": "FrostMonkey <frostmonkey@protonmail.com>",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack --progress --hide-modules --watch",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "dependencies": {
+    "axios": "^0.16.2",
+    "babel-polyfill": "^6.23.0",
+    "chart.js": "^2.6.0",
+    "cookie": "^0.3.1",
+    "moment": "^2.18.1",
+    "vue": "^2.2.1",
+    "vue-chartjs": "^2.6.5",
+    "vue-markdown": "^2.1.3",
+    "vue-router": "^2.5.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.0.0",
+    "babel-loader": "^6.0.0",
+    "babel-preset-latest": "^6.0.0",
+    "cross-env": "^3.0.0",
+    "css-loader": "^0.25.0",
+    "file-loader": "^0.9.0",
+    "node-sass": "^4.5.0",
+    "sass-loader": "^5.0.1",
+    "uglify-js": "github:mishoo/UglifyJS2#harmony-v2.8.22",
+    "uglifyjs-webpack-plugin": "^0.4.3",
+    "vue-loader": "^11.1.4",
+    "vue-template-compiler": "^2.2.1",
+    "webpack": "^2.2.0"
+  }
+}
